@@ -1,0 +1,60 @@
+body{
+    font-size: 80%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.15em;
+    background-color: #e1ddda;
+
+}
+#page{
+    
+    margin: 90px auto 90px auto;
+    padding: 20px;
+    border: 10px double #000;
+    background-color: #ffffff;
+}
+
+li{
+    display: inline; /*inline: link or content will be in the line
+    , flex: varetical in left side, block: it wont change, none: it will hide from page
+    inline-block: it will create a gap from margin*/
+    text-align: center;
+    margin: 0px 3px;
+}
+#logo{
+    margin: 10px auto 10px auto;
+    width: 150px;
+    background-color: salmon;
+}
+ul{
+    width: 580px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 25px;
+    /*box-shadow allows to add a drop shadow around a box*/
+    box-shadow: 5px 5px 5px #777777;
+    border-color: #0088dd;
+}
+p{
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+a{
+    text-transform: uppercase;
+    text-decoration:none;
+    padding: 6px 18px 5px 18px;
+
+}
+a:hover, a.on{
+    color: #cc3333;
+    background-color: #ffffff;
+}
+footer{
+    text-align: center;
+    background-color: salmon;
+    border-radius: 25px;
+}
